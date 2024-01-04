@@ -1,0 +1,32 @@
+Jemeric Valmoria
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Searcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Search a Movie</h1>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for a movie...">
+    <button onclick="searchMovies()">Search</button>
+  </div>
+
+  <div class="upcoming-movies">
+    <h2>Similar Movies:</h2>
+    <div id="upcomingMovies"></div>
+  </div>
+
+  <div class="movie-details" id="movieDetails">
+  </div>
+
+  <div class="similar-movies">
+    <h2>Upcoming Movies:</h2>
+    <div id="similarMovies"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

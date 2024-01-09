@@ -54,58 +54,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-.upcoming-movies,
-.similar-movies {
+.upcomingMoviesList-movies{
   margin-top: 20px;
-}
-
-.movie-item {
-  display: flex;
-  margin-bottom: 20px;
-  border: 1px solid #333;
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-  background-color: #444;
-}
-
-.movie-item:hover {
-  transform: translateY(-5px);
-}
-
-.movie-poster img {
-  width: 150px;
-  height: auto;
-  margin-right: 10px;
-}
-
-.movie-info {
-  flex: 1;
-  padding: 15px;
-}
-
-.movie-info h3 {
-  margin-top: 0;
-  font-size: 1.5em;
-  color: #007bff;
-}
-
-.movie-info p {
-  margin: 8px 0;
-  color: #ddd;
-}
-
-.movie-info button {
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.movie-info button:hover {
-  background-color: blue;
 }

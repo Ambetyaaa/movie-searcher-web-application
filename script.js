@@ -114,16 +114,32 @@ function DisplayMovieDetails(movie) {
     const posterImage = document.createElement('img');
     posterImage.src = posterUrl;
     posterImage.alt = movie.title;
-
+    
     movieDetailsContainer.appendChild(title);
     movieDetailsContainer.appendChild(posterImage);
     movieDetailsContainer.appendChild(releaseDate);
     movieDetailsContainer.appendChild(rating);
     movieDetailsContainer.appendChild(genre);
     movieDetailsContainer.appendChild(story);
+
 }
 
+function MovieDetailsPage(movieId, event) {
+    // Hide the container div for upcoming movies
+    document.querySelector('.container').style.display = 'none';
 
+    // Show the details container
+    document.querySelector('.container-details').style.display = 'block';
+
+    // Prevent the default behavior of the click event
+    event.preventDefault();
+
+    // Manually update the URL without triggering a page reload
+    history.pushState(null, null, `index.html?movieId=${movieId}`);
+
+    // Load the movie details for the clicked movie
+    MovieDetails();
+}
 
 fetchUpcomingMovies();
 

@@ -9,26 +9,21 @@
 </head>
 
 <body>
-  <h1>Search a Movie</h1>
-
   <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search any movie...">
+    <h1>Movie Searcher</h1>
+    <input type="text" id="searchInput">
     <button onclick="searchMovies()">Search</button>
   </div>
-
-  <div class="upcoming-movies">
-    <h2>Upcoming Movies:</h2>
+  <div class="container" id="container1">
+    <h2>Upcoming Movies</h2>
+    <div id="moviesList"></div>
     <div id="upcomingMoviesList"></div>
   </div>
-
-<div id="moviesList"></div>
-<div id="upcomingMoviesList"></div>
-</div>
-<div class="container-details">
-  <h1 id="movdetailsh1">Movie Details</h1>
-  <div id="movieDetails"></div>
-  <div id="moviesList"></div>
-</div>
+  <div class="container-details">
+    <h1 id="movdetailsh1">Movie Details</h1>
+    <div id="movieDetails"></div>
+    <div id="moviesList"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>

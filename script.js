@@ -131,11 +131,8 @@ function MovieDetailsPage(movieId, event) {
     // Show the details container
     document.querySelector('.container-details').style.display = 'block';
 
-    // Prevent the default behavior of the click event
-    event.preventDefault();
-
     // Manually update the URL without triggering a page reload
-    history.pushState(null, null, `index.html?movieId=${movieId}`);
+    history.pushState(null, null, `Moviesite.html?movieId=${movieId}`);
 
     // Load the movie details for the clicked movie
     MovieDetails();

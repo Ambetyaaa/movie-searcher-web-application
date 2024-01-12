@@ -10,13 +10,29 @@ body {
   background-repeat: no-repeat;
 }
 
+.search-containers {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
+  background-color: #fff;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container-details {
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 h1 {
@@ -54,6 +70,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-.upcomingMoviesList-movies{
+.upcomingMoviesList-movies {
   margin-top: 20px;
 }

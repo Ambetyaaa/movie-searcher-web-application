@@ -1,4 +1,4 @@
-const apiKey = '1bfdbff05c2698dc917dd28c08d41096';
+const apiKey = '6075da9378b0e9436f370dea80d0c669';
 
 function searchMovies() {
     const searchQuery = document.getElementById('searchInput').value;
